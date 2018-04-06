@@ -4,10 +4,16 @@ body {
   font-style: bold;
 }
 
+button {
+  height: 20px;
+  width: 100px;
+}
+
 .first, .second, .third, .fourth {
   border: 2px solid black;
   width: 30vh;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   border-radius: 5px;
@@ -18,6 +24,13 @@ body {
   font-size: 1.4em;
   background-color: white;
   height: 12vh;
+}
+
+.second, .third, .fourth {
+  font-size: 1.3em;
+  color: white;
+  background-color: rgba(112, 255, 193, 1);
+  height: 5vh;
 }
 
 .second {
@@ -41,6 +54,10 @@ body {
   height: 5vh;
 }
 
+.hidden {
+  display: none;
+}
+
 .visual {
   margin: 20vh auto;
   width: 30vh;
@@ -51,6 +68,3 @@ body {
 
 }
 
-p {
-
-}
