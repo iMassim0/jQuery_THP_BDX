@@ -1,0 +1,56 @@
+body {
+  background-color: rgba(159,217,253,1);
+  font-family: Arial, sans-serif;
+  font-style: bold;
+}
+
+.first, .second, .third, .fourth {
+  border: 2px solid black;
+  width: 30vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+
+}
+
+.first {
+  font-size: 1.4em;
+  background-color: white;
+  height: 12vh;
+}
+
+.second {
+  font-size: 1.3em;
+  color: white;
+  background-color: rgba(112, 255, 193, 1);
+  height: 5vh;
+}
+
+.third {
+  font-size: 1.3em;
+  color: white;
+  background-color: rgba(254, 230, 134, 1);
+  height: 5vh;
+}
+
+.fourth {
+  font-size: 1.3em;
+  color: white;
+  background-color: rgba(251, 139, 202, 1);
+  height: 5vh;
+}
+
+.visual {
+  margin: 20vh auto;
+  width: 30vh;
+  height: 60vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+}
+
+p {
+
+}
